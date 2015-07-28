@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="FinalAssignmentComp2007.Default" %>
+
+<!DOCTYPE html>
+
+<!--Author Name: Gil Emerson
+    Project: Assignment #2 Enterprise Computing
+    Date: July 21st 2015
+    -->
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is an online hockey database">
+    <meta name="author" content="Gil Emerson">
+    <title>Hockey Database</title>
+
+    <!--CSS Section-->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/carousel.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+
+    <!--Icon-->
+    <link rel="shortcut icon" href="Assests/images/favicon.ico" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <form id="form1" runat="server">
+            <div>
+                <asp:PlaceHolder ID="PublicNav" runat="server">
+                    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand">Top Picks</a>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="/Default.aspx">Home</a></li>
+                                    <li><a href="/About.aspx">About</a></li>
+                                    <li class="dropdown">
+                                        <a href="/Contact.aspx" class="dropdown-toggle" data-toggle="dropdown">Help<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="/Contact.aspx" class="glyphicon glyphicon-user">Contact</a></li>
+                                            <li role="separator" class="divider"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!--Left Nav Bar-->
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="/Register.aspx">Register</a></li>
+                                    <li><a href="/Login.aspx">Login</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </asp:PlaceHolder>
+
+                <asp:PlaceHolder ID="PrivateNav" runat="server">
+                    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand">Top Picks</a>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="/Default.aspx">Home</a></li>
+                                    <li><a href="/About.aspx">About</a></li>
+                                    <li><a href="/Coaches1">Coaches</a></li>
+                                    <li><a href="/Players">Players</a></li>
+                                    <li><a href="/Goalies">Goalies</a></li>
+                                    <li class="dropdown">
+                                        <a href="/Contact.aspx" class="dropdown-toggle" data-toggle="dropdown">Help<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="/Contact.aspx" class="glyphicon glyphicon-user">Contact</a></li>
+                                            <li role="separator" class="divider"></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!--Left Nav Bar-->
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="navbar-text">Welcome,
+                                    <asp:LoginName ID="LoginName1" runat="server" />
+                                    </li>
+                                    <li>
+                                        <asp:LoginStatus ID="LoginStatus1" runat="server" />
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </asp:PlaceHolder>
+
+
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class=" navbar-inverse navbar-fixed-bottom">
+        <p class="pull-right">
+            <a href="https://github.com/gilemerson" target="_blank">
+                <img id="social" src="/Assests/images/git.png" alt="GitHub Logo" /></a>
+            <a href="mailto:emerson-gil@outlook.com" target="_blank">
+                <img id="social01" src="/Assests/images/mail.png" alt="Mail Logo" /></a>           
+            <a href="https://plus.google.com/" target="_blank">
+                <img id="social" src="/Assests/images/google.jpg" alt="Google+ Logo" /></a>
+
+        </p>
+        <p>&copy; 2015 Emerson Inc. &middot; <a href="/Privacy.aspx">Privacy</a> &middot; <a href="/TermsofUse.aspx">Terms</a></p>
+    </footer>
+
+    <!--JavaScript Section-->
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/main.js"></script>
+
+</body>
+</html>
+
+
+
