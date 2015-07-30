@@ -49,7 +49,7 @@
                     
                 </a>
                 <h3>
-                    <p>Background</p>
+                   <p>Background</p>
                 </h3>
                 <p>Hello Everyone, I am the lead programmer here at Top Picks Fantasy Pools. Here we store an assortment of top NHL goalies, players and coaches. 
                     Users will be able to make their season picks using the database. As stated below, Top Picks will be under construction in late August because we will be adding
