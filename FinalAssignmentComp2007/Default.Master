@@ -50,8 +50,8 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="/Default.aspx">Home</a></li>
-                                    <li><a href="/About.aspx">About</a></li>
+                                    <li><a href="/Default.aspx" ><i class="fa fa-home"></i>Home</a></li>
+                                    <li><a href="/About.aspx"><i class="fa fa-history"></i>About</a></li>
                                     <li class="dropdown">
                                         <a href="/Contact.aspx" class="dropdown-toggle" data-toggle="dropdown">Help<b class="caret"></b></a>
                                         <ul class="dropdown-menu">
@@ -62,8 +62,8 @@
                                 </ul>
                                 <!--Left Nav Bar-->
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="/Register.aspx">Register</a></li>
-                                    <li><a href="/Login.aspx">Login</a></li>
+                                    <li><a href="/Register.aspx"><i class="fa fa-rss-square"></i>Register</a></li>
+                                    <li><a href="/Login.aspx"><i class="fa fa-sign-in"></i>Login</a></li>
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->
@@ -88,8 +88,8 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="/Default.aspx">Home</a></li>
-                                    <li><a href="/About.aspx">About</a></li>
+                                    <li><a href="/Default.aspx"><i class="fa fa-home"></i>Home</a></li>
+                                    <li><a href="/About.aspx"><i class="fa fa-history"></i>About</a></li>
                                     <li><a href="/Coaches1">Coaches</a></li>
                                     <li><a href="/Players">Players</a></li>
                                     <li><a href="/Goalies">Goalies</a></li>
@@ -106,9 +106,9 @@
                                     <li class="navbar-text">Welcome,
                                     <asp:LoginName ID="LoginName1" runat="server" />
                                     </li>
-                                    <li>
-                                        <asp:LoginStatus ID="LoginStatus1" runat="server" />
-
+                                    <li>                                 
+                                        <asp:LoginStatus class="fa fa-sign-out" ID="LoginStatus1" runat="server" />
+                                        
                                     </li>
                                 </ul>
                             </div>
