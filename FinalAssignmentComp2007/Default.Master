@@ -107,7 +107,7 @@
                                     <asp:LoginName ID="LoginName1" runat="server" />
                                     </li>
                                     <li>                                 
-                                        <asp:LoginStatus class="fa fa-sign-out" ID="LoginStatus1" runat="server" />
+                                        <asp:LoginStatus class="fa fa-sign-out" ID="LoginStatus1" runat="server" LogoutPageUrl="~/Default.Master" LogoutAction="RedirectToLoginPage" />
                                         
                                     </li>
                                 </ul>
