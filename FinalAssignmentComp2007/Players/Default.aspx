@@ -2,7 +2,7 @@
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-
+    <br /><br />
     <h2 class="glyphicon glyphicon-user">Players</h2>
     <p>
        <i class="fa fa-hand-o-right about-char"></i> <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />

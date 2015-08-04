@@ -45,8 +45,13 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand">Top Picks</a>
-                            </div>
+                                
+                                 <a class="navbar-brand" rel="home" href="#" title="">
+        <img style="max-width:100px; margin-top: -7px;"
+             src="/Assests/images/rgb_standard.jpg"> </a>
+                           
+                                
+                                 </div>
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
@@ -83,7 +88,9 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand">Top Picks</a>
+                                      <a class="navbar-brand" rel="home" href="#" title="">
+        <img style="max-width:100px; margin-top: -7px;"
+             src="/Assests/images/rgb_standard.jpg"> </a>
                             </div>
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
