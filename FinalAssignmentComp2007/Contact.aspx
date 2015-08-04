@@ -117,7 +117,7 @@
                                         <div class="panel-collapse collapse" id="qa-2">
                                             <div class="panel-body">
                                                 <div class="col-lg-5">
-                                                    <img src="Assests/images/Icon_Sponsors2.png" />
+                                                    <img src="/Assests/images/Icon_Sponsors2.png" />
                                                 </div>
                                                 <div class="col-lg-6">
                                                     Top Picks is always welcome to anyone who is willing and able to help and sponsors the site. This will help us grow as a community and help get our name noticed by the public. Thank You.
@@ -125,7 +125,10 @@
                                                     <br />
 
                                                     Current Sponsor<br />
-                                                    <img src="Assests/images/emersonlogo.gif" />
+                                                    <br />
+                                                     <a href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/index.html">Emerson Inc</a>
+                                                    <a href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/index.html">
+                                                        <img id="social" src="/Assests/images/emersonlogo.gif" alt="Emerson Inc" /></a>
                                                 </div>
                                             </div>
                                             <!-- end panel-body -->
@@ -133,8 +136,8 @@
                                         <!-- end collapse -->
                                     </div>
                                     <!-- end panel -->
-
                                 </div>
+                            </div>
                         </div>
                     </section>
 
