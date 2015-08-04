@@ -112,7 +112,7 @@
 
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
-                                            <h4 class="panel-title"><a href="#qa-2" data-toggle="collapse" data-parent="#accordion-qa">Top Pick Sponsors</a></h4>
+                                            <h4 class="panel-title"><a href="#qa-2" data-toggle="collapse" data-parent="#accordion-qa">Our Sponsors</a></h4>
                                         </div>
                                         <div class="panel-collapse collapse" id="qa-2">
                                             <div class="panel-body">
