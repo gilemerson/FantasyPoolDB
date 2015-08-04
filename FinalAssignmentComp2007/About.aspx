@@ -5,16 +5,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <!-- Page Content -->
 
-        <!-- Introduction Row -->
-        <div class="row">
-            <div class="text-center">
-                <h1 class="page-header">Top Picks
+    <!-- Introduction Row -->
+    <div class="row">
+        <div class="text-center">
+            <h1 class="page-header">Top Picks
                     <small>It's Nice to Meet You!</small>
-                </h1>
-                <p>Top Picks is an online NHL database that lets members register and add their top NHL goalies, coaches and players </p>
-            </div>
+            </h1>
+            <p>Top Picks is an online NHL database that lets members register and add their top NHL goalies, coaches and players </p>
         </div>
-    
+    </div>
+
     <!-- Page Content -->
     <div class="container">
 
@@ -34,56 +34,53 @@
                 <a href="#">
                     <img class="img-responsive" src="/Assests/images/gil.jpg" alt="">
                 </a>
-                <h3>
-                     Gil Emerson
-                    <small>Team Lead</small>      
+                <h3>Gil Emerson
+                    <small>Team Lead</small>
                     <div id="resume" class="large-12 columns panel callout radius">
                         <h3>Feel free to download my resume by following the link below.</h3>
                         <a href="/Assests/images/Gil_Resume.docx" download><i class="fa fa-hand-o-right about-char"></i>My Resume</a>
-                    </div>        
+                    </div>
                 </h3>
-               
+
             </div>
             <div class="col-md-6 portfolio-item jumbotron">
-                <a href="#">
-                    
-                </a>
+                <a href="#"></a>
                 <h3>
-                   <p>Background</p>
+                    <p>Background</p>
                 </h3>
-                <p>Hello Everyone, I am the lead programmer here at Top Picks Fantasy Pools. Here we store an assortment of top NHL goalies, players and coaches. 
+                <p>
+                    Hello Everyone, I am the lead programmer here at Top Picks Fantasy Pools. Here we store an assortment of top NHL goalies, players and coaches. 
                     Users will be able to make their season picks using the database. As stated below, Top Picks will be under construction in late August because we will be adding
                     in a MLB database to extend the users privileges. 
                 </p>
             </div>
         </div>
-        </div>
-        <!-- /.row -->
-        <br />
-        <hr />
-       <!-- About Section -->
+    </div>
+    <!-- /.row -->
+    <br />
+    <hr />
+    <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About
-                        <br /> Top Picks
+                        <br />
+                        Top Picks
                     </h2>
                     <h3 class="section-subheading text-muted">Your Online NHL Fanatsy Pool Database</h3>
                 </div>
             </div>
         </div>
 
-
-            
-    <!-- Page Content -->
-    <div class="container">
+        <!-- Page Content -->
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive center-block" src="/Assests/images/1.jpg" >
+                                <img class="img-circle img-responsive center-block" src="/Assests/images/1.jpg">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -111,7 +108,7 @@
                                 </div>
                             </div>
                         </li>
-                         <br />
+                        <br />
                         <br />
                         <li>
                             <div class="timeline-image">
@@ -127,7 +124,7 @@
                                 </div>
                             </div>
                         </li>
-                         <br />
+                        <br />
                         <br />
                         <li class="timeline-inverted">
                             <div class="timeline-image">
@@ -139,17 +136,20 @@
                                     <h4 class="subheading text-center">Phase Two Expansion</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted text-center">Top Picks is planning to expand into a MLB online Fantasy pool. This will give users the option to also create MLB pools using their existing account on Top Picks.<br /> Coming Soon!</p>
+                                    <p class="text-muted text-center">Top Picks is planning to expand into a MLB online Fantasy pool. This will give users the option to also create MLB pools using their existing account on Top Picks.<br />
+                                        Coming Soon!</p>
                                 </div>
                             </div>
                         </li>
-                         <br />
+                        <br />
                         <br />
                         <li class="timeline-inverted">
-                            <div class="timeline-image center-block">                              
+                            <div class="timeline-image center-block">
                                 <h4 class="text-center">Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                    <br>
+                                    Of Our
+                                    <br>
+                                    Story!</h4>
                                 <br />
                                 <br />
                             </div>
@@ -157,7 +157,7 @@
                     </ul>
                 </div>
             </div>
-        </div>              
+        </div>
     </section>
 
 

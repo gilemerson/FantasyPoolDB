@@ -5,7 +5,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <div class="container">
-
         <div class="blog-header">
             <h1 class="blog-title">Welcome To Top Picks</h1>
             <p class="lead blog-description">Your Online NHL Fanatsy Pool Database</p>
@@ -15,7 +14,6 @@
             <div class="col-sm-8 blog-main">
                 <div class="blog-post">
                     <h2 class="jumbotron">Contact Information<br />
-
                         <p>
                             Name: Gil Emerson<br />
                             <a href="mailto:emerson-gil@outlook.com">Email: emerson-gil<wbr />@outlook.com</a><br />
@@ -82,7 +80,6 @@
                         </div>
                     </div>
 
-
                     <!---Tings to know-->
                     <hr />
                     <section>
@@ -126,7 +123,7 @@
 
                                                     Current Sponsor<br />
                                                     <br />
-                                                     <a href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/index.html">Emerson Inc</a>
+                                                    <a href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/index.html">Emerson Inc</a>
                                                     <a href="http://webdesign4.georgianc.on.ca/~200186807/EmersonInc/index.html">
                                                         <img id="social" src="/Assests/images/emersonlogo.gif" alt="Emerson Inc" /></a>
                                                 </div>
@@ -140,7 +137,6 @@
                             </div>
                         </div>
                     </section>
-
 
                     <style>
                         .header {

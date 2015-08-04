@@ -99,7 +99,6 @@
                 <!-- /.col-lg-4 -->
             </div>
             <!-- /.row -->
-
         </div>
     </div>
     <!-- START THE FEATURETTES -->
@@ -134,10 +133,10 @@
 
     <hr class="featurette-divider">
 
-       <!-- Page Content -->
+    <!-- Page Content -->
     <div class="container">
 
-        <div class="row">         
+        <div class="row">
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail">
                     <img class="img-responsive" src="/Assests/images/sakic.jpg" alt="Joe Sakic">
@@ -157,7 +156,7 @@
                 <a class="thumbnail">
                     <img class="img-responsive" src="/Assests/images/mario.jpg" alt="Mario Lemieux">
                 </a>
-            </div>       
-          </div>
+            </div>
         </div>
+    </div>
 </asp:Content>
