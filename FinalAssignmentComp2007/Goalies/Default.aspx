@@ -4,7 +4,7 @@
 
     <h2 class="glyphicon glyphicon-user">Goalies</h2>
     <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+       <i class="fa fa-hand-o-right about-char"></i> <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
     </p>
     <div>
         <asp:ListView id="ListView1" runat="server"

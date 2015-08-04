@@ -39,7 +39,7 @@
                     <small>Team Lead</small>      
                     <div id="resume" class="large-12 columns panel callout radius">
                         <h3>Feel free to download my resume by following the link below.</h3>
-                        <a href="/Assests/images/Gil_Resume.docx" download>My Resume</a>
+                        <a href="/Assests/images/Gil_Resume.docx" download><i class="fa fa-hand-o-right about-char"></i>My Resume</a>
                     </div>        
                 </h3>
                
