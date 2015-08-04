@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="Players List" Language="C#" MasterPageFile="~/Default.Master" CodeBehind="Default.aspx.cs" Inherits="FinalAssignmentComp2007.Players.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
+
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
 
     <h2 class="glyphicon glyphicon-user">Players</h2>
