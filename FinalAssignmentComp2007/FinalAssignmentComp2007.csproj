@@ -88,11 +88,13 @@
     <Content Include="Assests\images\4.jpg" />
     <Content Include="Assests\images\coaches.jpg" />
     <Content Include="Assests\images\contact1.jpg" />
+    <Content Include="Assests\images\emersonlogo.gif" />
     <Content Include="Assests\images\gil.jpg" />
     <Content Include="Assests\images\goalies.jpg" />
     <Content Include="Assests\images\google.jpg" />
     <Content Include="Assests\images\greatNum-325.jpg" />
     <Content Include="Assests\images\howe.jpg" />
+    <Content Include="Assests\images\Icon_Sponsors2.png" />
     <Content Include="Assests\images\jean.jpg" />
     <Content Include="Assests\images\mapview.png" />
     <Content Include="Assests\images\mario.jpg" />
@@ -107,6 +109,7 @@
     <Content Include="Assests\images\slide1header.jpg" />
     <Content Include="Assests\images\wg.jpg" />
     <Content Include="Assests\images\youtube_logo.jpg" />
+    <Content Include="Assests\images\sitemaintence.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />

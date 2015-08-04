@@ -83,66 +83,60 @@
                     </div>
 
 
-                       <!---Tings to know-->
-    <hr />
-      <img id="divider" src="" />
-    <section>
-        <div class="container">
-         <h1 class="text-center heading">Things to Know</h1>
-            <div class="col-lg-offset-1">
-			<div class="panel-group" id="accordion-qa">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title"><a href="#qa-1" data-toggle="collapse" data-parent="#accordion-qa">Century Of Success</a></h4>
-					</div>
-					<div class="panel-collapse collapse in" id="qa-1">
-						<div class="panel-body">
-                            <div class="col-lg-5">
-                            <img src="Assets/Logo/successLogo.JPG" />
-							</div>
-                            <div class="col-lg-6">
-                                We know that opening a franchise is a tremendous opportunity. We understand your passion. Charley started the business with his dream of opening a restaurant. His entrepreneurial spirit and work ethic have guided us from day one
-						</div>
-                            </div> <!-- end panel-body -->
-					</div> <!-- end collapse -->
-				</div> <!-- end panel -->
+                    <!---Tings to know-->
+                    <hr />
+                    <section>
+                        <div class="container">
+                            <h1 class="text-center heading">Things to Know</h1>
+                            <div class="col-lg-offset-1">
+                                <div class="panel-group" id="accordion-qa">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a href="#qa-1" data-toggle="collapse" data-parent="#accordion-qa">Scheduled Site Maintence</a></h4>
+                                        </div>
+                                        <div class="panel-collapse collapse in" id="qa-1">
+                                            <div class="panel-body">
+                                                <div class="col-lg-5">
+                                                    <img src="/Assests/images/sitemaintence.jpg" />
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    Top Picks will be under construction fo 2 weeks, starting on August 10th - August 25th Top Picks will be down from 12 midnight - 6am (5 Days a week). Thank you for your patience. 
+					
+                                                </div>
+                                            </div>
+                                            <!-- end panel-body -->
+                                        </div>
+                                        <!-- end collapse -->
+                                    </div>
+                                    <!-- end panel -->
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title"><a href="#qa-2" data-toggle="collapse" data-parent="#accordion-qa">Brotherly Love</a></h4>
-					</div>
-					<div class="panel-collapse collapse" id="qa-2">
-						<div class="panel-body">
-                            <div class="col-lg-5">
-                                <img src="Assets/Logo/commitedLogo.JPG" />
-                            </div>
-                            <div class="col-lg-6">
-							Our passion for serving up remarkable Philly Steaks is matched by our passion for serving the communities where we live and work. Throughout the world, we help strengthen local communities by giving time, energy, and funds to support worthy causes, sponsor neighborhood organizations, and organize charitable events.
-						</div>
-                            </div> <!-- end panel-body -->
-					</div> <!-- end collapse -->
-				</div> <!-- end panel -->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a href="#qa-2" data-toggle="collapse" data-parent="#accordion-qa">Top Pick Sponsors</a></h4>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="qa-2">
+                                            <div class="panel-body">
+                                                <div class="col-lg-5">
+                                                    <img src="Assests/images/Icon_Sponsors2.png" />
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    Top Picks is always welcome to anyone who is willing and able to help and sponsors the site. This will help us grow as a community and help get our name noticed by the public. Thank You.
+                                                    <br />
+                                                    <br />
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title"><a href="#qa-3" data-toggle="collapse" data-parent="#accordion-qa">People Love Us</a></h4>
-					</div>
-					<div class="panel-collapse collapse" id="qa-3">
-						<div class="panel-body">
-                            <div class="col-lg-5">
-                                <img src="Assets/Logo/peopleLogo.JPG" />
-                            </div>
-                            <div class="col-lg-6">
+                                                    Current Sponsor<br />
+                                                    <img src="Assests/images/emersonlogo.gif" />
+                                                </div>
+                                            </div>
+                                            <!-- end panel-body -->
+                                        </div>
+                                        <!-- end collapse -->
+                                    </div>
+                                    <!-- end panel -->
 
-                        As People loves Chilli Flakes, due to high quality of the food that best service. We offer catering service and special arrangement for birthday parties. We are in food industry for Last 100 years and we have many locations please come by and try the best food .
-					</div>
-                                	</div> <!-- end panel-body -->
-					</div> <!-- end collapse -->
-				</div> <!-- end panel -->
-			</div> <!-- end panel-group -->
-            </div>
-            </div>
-    </section>
+                                </div>
+                        </div>
+                    </section>
 
 
                     <style>
@@ -156,7 +150,6 @@
                             font-size: 35px;
                             color: #36A0FF;
                         }
-
                     </style>
                     <br />
                     <br />
@@ -170,8 +163,6 @@
                 </div>
             </div>
             <!-- /.blog-main -->
-
-
 
             <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
                 <div class="sidebar-module sidebar-module-inset">
