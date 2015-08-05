@@ -28,7 +28,7 @@
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-
+    
 </head>
 <body>
     <div class="container-fluid">
